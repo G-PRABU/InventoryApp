@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/ProductEditorDetailHead"
+        android:text="@string/supplier_detail_head"/>
+
+    <EditText
+        android:id="@+id/supplier_detail_name"
+        style="@style/SupplierDetailEditText"
+        android:hint="@string/hint_product_editor_name"/>
+
+    <EditText
+        android:id="@+id/supplier_detail_phone_number"
+        style="@style/SupplierDetailEditText"
+        android:inputType="phone"
+        android:hint="@string/hint_supplier_detail_number"/>
+
+</LinearLayout>
